@@ -1,0 +1,82 @@
+body {
+    margin: 0 auto;
+    font-family: "PT Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 108px;
+    height: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1300px;
+}
+
+.header-page {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list__header {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item__header a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.search label {
+    cursor: pointer;
+    background-image: url(../img/search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 24px;
+}
+
+.search {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333333;
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid #33333344;
+    outline: none;
+}
+
+.select__language {
+    width: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: url(../img/blue-arrow.svg) right center no-repeat;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333333;
+}
